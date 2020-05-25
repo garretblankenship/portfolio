@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Krub:wght@400;500;600;700&family=Noto+Sans:wght@400;700&display=swap");
+h1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700; }
+
+h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  margin: 0;
+  line-height: 80px; }
+
+h3 {
+  font-family: 'Krub', sans-serif;
+  font-weight: 500;
+  margin: 5px 0;
+  font-size: 28px; }
+
+h4 {
+  font-family: 'Krub', sans-serif;
+  font-weight: 600;
+  margin: 5px 0;
+  font-size: 20px; }
+
+p {
+  font-family: 'Krub', sans-serif;
+  font-weight: 400; }
+
+section {
+  padding: 0 20px; }
+
+#home .main {
+  min-height: 100vh;
+  background-color: #e6e7e7; }
+  #home .main > div {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto; }
+  #home .main header {
+    padding-top: 40px; }
+  #home .main footer {
+    align-self: flex-end;
+    padding-bottom: 30px; }
+
+/*# sourceMappingURL=styles.css.map */
