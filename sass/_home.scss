@@ -3,22 +3,75 @@
         min-height: 100vh;
         background-color: #e6e7e7;
         
-        > div {
-            min-height: 100vh;
+        .slide {
             display: flex;
+            min-height: 0vh;
             flex-direction: column;
             justify-content: space-between;
             max-width: 900px;
             margin: auto;
-        }
+            opacity: 0;
+            max-height: 0px;
+            animation-duration: 40s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            
+            header {
+                padding-top: 60px;
+            }
+    
+            footer {
+                align-self: flex-end;
+                padding-bottom: 30px;
+                padding-top: 20px;
+            }
 
-        header {
+            &.one {
+                animation-name: slide1;
+            }
+            &.two {
+                animation-name: slide2;
+            }
+            &.three {
+                animation-name: slide3;
+            }
+            &.four {
+                animation-name: slide4;
+            }
+        }
+    }
+
+    .about {
+        nav {
             padding-top: 40px;
+            display: flex;
+    
+            a {
+                margin-right: 20px;
+    
+                &:hover {
+                    color: #40ba52;
+                }
+            }
         }
 
-        footer {
-            align-self: flex-end;
-            padding-bottom: 30px;
+        > div {
+            max-width: 900px;
+            margin: auto;
+            padding-top: 60px;
+
+            h1 {
+                text-align: center;
+                margin-bottom: 80px;
+
+                span {
+                    color: #f24d2a;
+                }
+            }
+
+            p {
+                color: #00a2d7;
+            }
         }
     }
 }
