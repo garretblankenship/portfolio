@@ -12,6 +12,10 @@ h2 {
     margin: 0;
     line-height: 60px;
     color: #2e2e2e;
+
+    b {
+        font-weight: 700;
+    }
 }
 
 h3 {
@@ -63,7 +67,7 @@ section {
 
 footer.bottom-bar {
     background-color: #2e2e2e;
-    padding: 10px 20px;
+    padding: 10px 40px;
     display: flex;
     justify-content: flex-end;
     margin-top: 80px;
@@ -93,6 +97,11 @@ a {
     font-size: 18px;
     display: inline-block;
     color: #888888; 
+    padding-bottom: 4px;
+
+    &.current {
+        border-bottom: 2px solid #9b59ac;
+    }
 }
 
 @media screen and (min-width: 600px) {
