@@ -268,10 +268,8 @@ nav {
     margin-bottom: 80px; }
     #home .about > div h1 span {
       color: #f24d2a; }
-  #home .about > div p {
-    color: #00a2d7; }
-    #home .about > div p:last-child {
-      margin-bottom: 80px; }
+  #home .about > div p:last-child {
+    margin-bottom: 80px; }
 
 #execution section:nth-child(odd) {
   background-color: #f2f2f2; }
@@ -311,13 +309,18 @@ nav {
 
 #ideas section {
   padding-bottom: 40px; }
+  #ideas section:first-child {
+    background-color: #f2f2f2;
+    margin-bottom: 120px; }
+    #ideas section:first-child h3 {
+      margin-top: 80px; }
   #ideas section > div {
     max-width: 1000px;
     margin: auto; }
   #ideas section h2 {
-    margin-bottom: 40px; }
+    margin-bottom: 80px; }
   #ideas section h3 {
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 40px; }
   #ideas section h4 {
     margin-top: 60px; }
