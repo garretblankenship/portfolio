@@ -24,6 +24,26 @@ h3 {
     margin: 5px 0;
     font-size: 22px;
     color: #2e2e2e;
+
+    &.red {
+        color: #f24d2a;
+    }
+
+    &.blue {
+        color: #00a2d7;
+    }
+
+    &.green {
+        color: #40ba52;
+    }
+
+    &.purple {
+        color: #9b59ac;
+    }
+
+    &.yellow {
+        color: #f1c619;
+    }
 }
 
 h4 {
@@ -33,20 +53,24 @@ h4 {
     font-size: 18px;
     color: #2e2e2e;
 
-    .red {
+    &.red {
         color: #f24d2a;
     }
 
-    .blue {
+    &.blue {
         color: #00a2d7;
     }
 
-    .green {
+    &.green {
         color: #40ba52;
     }
 
-    .purple {
+    &.purple {
         color: #9b59ac;
+    }
+
+    &.yellow {
+        color: #f1c619;
     }
 }
 
@@ -70,7 +94,6 @@ footer.bottom-bar {
     padding: 10px 40px;
     display: flex;
     justify-content: flex-end;
-    margin-top: 80px;
 
     a {
         color: #fff;
@@ -101,6 +124,19 @@ a {
 
     &.current {
         border-bottom: 2px solid #9b59ac;
+    }
+}
+
+nav {
+    padding-top: 40px;
+    display: flex;
+
+    a {
+        margin-right: 20px;
+
+        &:hover {
+            color: #40ba52;
+        }
     }
 }
 

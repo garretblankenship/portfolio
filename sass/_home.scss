@@ -42,19 +42,6 @@
     }
 
     .about {
-        nav {
-            padding-top: 40px;
-            display: flex;
-    
-            a {
-                margin-right: 20px;
-    
-                &:hover {
-                    color: #40ba52;
-                }
-            }
-        }
-
         > div {
             max-width: 900px;
             margin: auto;
@@ -71,6 +58,10 @@
 
             p {
                 color: #00a2d7;
+                
+                &:last-child {
+                    margin-bottom: 80px;
+                }
             }
         }
     }
