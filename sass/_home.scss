@@ -1,7 +1,7 @@
 #home {
     .main {
         min-height: 100vh;
-        background-color: #e6e7e7;
+        background-color: #f2f2f2;
         
         .slide {
             display: flex;
@@ -12,7 +12,7 @@
             margin: auto;
             opacity: 0;
             max-height: 0px;
-            animation-duration: 40s;
+            animation-duration: 30s;
             animation-iteration-count: infinite;
             animation-delay: 1s;
             

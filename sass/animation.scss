@@ -1,156 +1,156 @@
-// @keyframes slide1{
-//     0% {
-//         opacity: 0;
-//         min-height: 100vh;
-//         max-height: 10000px;  
-//     }
-//     5% {
-//         opacity: 1;
-//         min-height: 100vh;
-//         max-height: 10000px; 
-//     }
-//     20% {
-//         opacity: 1;
-//         min-height: 100vh;
-//         max-height: 10000px; 
-//     }
-//     24% {
-//         opacity: 0;
-//         min-height: 100vh;
-//         max-height: 10000px; 
-//     }
-//     25% {
-//         opacity: 0;
-//         min-height: 0vh;
-//         max-height: 0px; 
-//     }
-//     100% {
-//         opacity: 0;
-//         min-height: 0vh;
-//         max-height: 0px;
-//     }
-// }
+@keyframes slide1{
+    0% {
+        opacity: 0;
+        min-height: 100vh;
+        max-height: 10000px;  
+    }
+    5% {
+        opacity: 1;
+        min-height: 100vh;
+        max-height: 10000px; 
+    }
+    20% {
+        opacity: 1;
+        min-height: 100vh;
+        max-height: 10000px; 
+    }
+    24% {
+        opacity: 0;
+        min-height: 100vh;
+        max-height: 10000px; 
+    }
+    25% {
+        opacity: 0;
+        min-height: 0vh;
+        max-height: 0px; 
+    }
+    100% {
+        opacity: 0;
+        min-height: 0vh;
+        max-height: 0px;
+    }
+}
 
-// @keyframes slide2{
-//     0% {
-//         opacity: 0;
-//         min-height: 0vh;
-//         max-height: 0px;
-//     }
-//     25% {
-//         opacity: 0;
-//         min-height: 0vh;
-//         max-height: 0px;
-//     }
-//     26% {
-//         opacity: 0;
-//         min-height: 100vh;
-//         max-height: 10000px; 
-//     }
-//     30% {
-//         opacity: 1;
-//         min-height: 100vh;
-//         max-height: 10000px; 
-//     }
-//     45% {
-//         opacity: 1;
-//         min-height: 100vh;
-//         max-height: 10000px; 
-//     }
-//     49% {
-//         opacity: 0;
-//         min-height: 100vh;
-//         max-height: 10000px; 
-//     }
-//     50% {
-//         opacity: 0;
-//         min-height: 0vh;
-//         max-height: 0px;
-//     }
-//     100% {
-//         opacity: 0;
-//         min-height: 0vh;
-//         max-height: 0px;
-//     }
-// }
+@keyframes slide2{
+    0% {
+        opacity: 0;
+        min-height: 0vh;
+        max-height: 0px;
+    }
+    25% {
+        opacity: 0;
+        min-height: 0vh;
+        max-height: 0px;
+    }
+    26% {
+        opacity: 0;
+        min-height: 100vh;
+        max-height: 10000px; 
+    }
+    30% {
+        opacity: 1;
+        min-height: 100vh;
+        max-height: 10000px; 
+    }
+    45% {
+        opacity: 1;
+        min-height: 100vh;
+        max-height: 10000px; 
+    }
+    49% {
+        opacity: 0;
+        min-height: 100vh;
+        max-height: 10000px; 
+    }
+    50% {
+        opacity: 0;
+        min-height: 0vh;
+        max-height: 0px;
+    }
+    100% {
+        opacity: 0;
+        min-height: 0vh;
+        max-height: 0px;
+    }
+}
 
-// @keyframes slide3{
-//     0% {
-//         opacity: 0;
-//         min-height: 0vh;
-//         max-height: 0px;
-//     }
-//     50% {
-//         opacity: 0;
-//         min-height: 0vh;
-//         max-height: 0px;
-//     }
-//     51% {
-//         opacity: 0;
-//         min-height: 100vh;
-//         max-height: 10000px; 
-//     }
-//     55% {
-//         opacity: 1;
-//         min-height: 100vh;
-//         max-height: 10000px;
-//     }
-//     70% {
-//         opacity: 1;
-//         min-height: 100vh;
-//         max-height: 10000px;
-//     }
-//     74% {
-//         opacity: 0;
-//         min-height: 100vh;
-//         max-height: 10000px; 
-//     }
-//     75% {
-//         opacity: 0;
-//         min-height: 0vh;
-//         max-height: 0px;
-//     }
-//     100% {
-//         opacity: 0;
-//         min-height: 0vh;
-//         max-height: 0px;
-//     }
-// }
+@keyframes slide3{
+    0% {
+        opacity: 0;
+        min-height: 0vh;
+        max-height: 0px;
+    }
+    50% {
+        opacity: 0;
+        min-height: 0vh;
+        max-height: 0px;
+    }
+    51% {
+        opacity: 0;
+        min-height: 100vh;
+        max-height: 10000px; 
+    }
+    55% {
+        opacity: 1;
+        min-height: 100vh;
+        max-height: 10000px;
+    }
+    70% {
+        opacity: 1;
+        min-height: 100vh;
+        max-height: 10000px;
+    }
+    74% {
+        opacity: 0;
+        min-height: 100vh;
+        max-height: 10000px; 
+    }
+    75% {
+        opacity: 0;
+        min-height: 0vh;
+        max-height: 0px;
+    }
+    100% {
+        opacity: 0;
+        min-height: 0vh;
+        max-height: 0px;
+    }
+}
 
-// @keyframes slide4{
-//     0% {
-//         opacity: 0;
-//         min-height: 0vh;
-//         max-height: 0px;
-//     }
-//     75% {
-//         opacity: 0;
-//         min-height: 0vh;
-//         max-height: 0px;
-//     }
-//     76% {
-//         opacity: 0;
-//         min-height: 100vh;
-//         max-height: 10000px; 
-//     }
-//     80% {
-//         opacity: 1;
-//         min-height: 100vh;
-//         max-height: 10000px;
-//     }
-//     95% {
-//         opacity: 1;
-//         min-height: 100vh;
-//         max-height: 10000px;
-//     }
-//     99% {
-//         opacity: 0;
-//         min-height: 100vh;
-//         max-height: 10000px; 
-//     }
-//     100% {
-//         opacity: 0;
-//         min-height: 0vh;
-//         max-height: 0px;
-//     }
-// }
+@keyframes slide4{
+    0% {
+        opacity: 0;
+        min-height: 0vh;
+        max-height: 0px;
+    }
+    75% {
+        opacity: 0;
+        min-height: 0vh;
+        max-height: 0px;
+    }
+    76% {
+        opacity: 0;
+        min-height: 100vh;
+        max-height: 10000px; 
+    }
+    80% {
+        opacity: 1;
+        min-height: 100vh;
+        max-height: 10000px;
+    }
+    95% {
+        opacity: 1;
+        min-height: 100vh;
+        max-height: 10000px;
+    }
+    99% {
+        opacity: 0;
+        min-height: 100vh;
+        max-height: 10000px; 
+    }
+    100% {
+        opacity: 0;
+        min-height: 0vh;
+        max-height: 0px;
+    }
+}
