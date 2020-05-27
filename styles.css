@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Krub:wght@400;500;600;700&family=Noto+Sans:wght@400;700&display=swap");
+:root {
+  --plyr-line-height: 2;
+  --plyr-color-main: #40ba52;
+  --plyr-font-family: 'Krub', sans-serif; }
+
 @keyframes slide1 {
   0% {
     opacity: 0;
@@ -169,6 +174,13 @@ h4 {
   h4.yellow {
     color: #f1c619; }
 
+h5 {
+  font-family: 'Krub', sans-serif;
+  font-weight: 600;
+  margin: 0;
+  font-size: 14px;
+  color: #2e2e2e; }
+
 p {
   font-family: 'Krub', sans-serif;
   font-weight: 400;
@@ -179,6 +191,8 @@ p {
 
 section {
   padding: 0 20px; }
+  section:last-of-type {
+    margin-bottom: 160px; }
 
 footer.bottom-bar {
   background-color: #2e2e2e;
@@ -189,6 +203,31 @@ footer.bottom-bar {
     color: #fff; }
     footer.bottom-bar a:hover {
       text-decoration: underline; }
+
+footer.player {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.28); }
+  footer.player .avatar {
+    width: 60px;
+    height: 60px;
+    background-image: url("./assets/garret.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 10px; }
+  footer.player h5 {
+    text-align: center;
+    margin-bottom: 6px; }
+  footer.player .plyr--audio .plyr__controls {
+    padding: 0; }
 
 hr {
   background-color: #2e2e2e;

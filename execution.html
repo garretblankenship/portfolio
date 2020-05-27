@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css" />
+
+    <script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
+
     <link rel="stylesheet" href="styles.css" />
     <title>Garret Blankenship</title>
 </head>
@@ -83,8 +87,21 @@
             </div>
         </div>
     </section>
-    <footer class="bottom-bar">
-        <a href="/contact.html"">Contact</a>
+    <footer class="player">
+        <div class="avatar"></div>
+        <div>
+            <h5>Garret Blankenship</h5>
+            <audio id="player">
+                <source src="/assets/homepage.m4a" type="audio/mp3" />
+            </audio>
+        </div>
     </footer>
+    <script>
+        const player = new Plyr('audio', {
+            title: 'Example title',
+            controls: ['play-large', 'play', 'progress', 'current-time']
+        });
+        window.player = player;
+    </script>
 </body>
 </html>
