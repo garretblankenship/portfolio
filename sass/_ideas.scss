@@ -35,32 +35,5 @@
         flex-direction: row;
         justify-content: flex-start;
         flex-wrap: wrap;
-        
-        .block {
-            width: 80px;
-            height: auto;
-            background-color: #f2f2f2;
-            padding: 20px 40px 8px 40px;
-            display: inline-block;
-            margin-right: 10px;
-            margin-bottom: 10px;
-    
-            img {
-                width: 100%;
-                display: block;
-            }
-    
-            p {
-                text-align: center;
-                margin: 0;
-                margin-top: 8px;
-                font-size: 14px;
-            }
-    
-            .logo-container {
-                background-color: #fff;
-                padding: 6px;
-            }
-        }
     }
 }

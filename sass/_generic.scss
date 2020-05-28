@@ -1,8 +1,12 @@
+body {
+    background-color: #fbfbfb;
+}
+
 h1 {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 700;
     font-size: 48px;
-    color: #2e2e2e;;
+    color: #2e2e2e;
 }
 
 h2 {
@@ -101,21 +105,6 @@ section {
     }
 }
 
-footer.bottom-bar {
-    background-color: #2e2e2e;
-    padding: 10px 40px;
-    display: flex;
-    justify-content: flex-end;
-
-    a {
-        color: #fff;
-
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-}
-
 footer.player {
     display: flex;
     flex-direction: row;
@@ -125,7 +114,7 @@ footer.player {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #fbfbfb;
     box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.28);
 
     .avatar {
@@ -181,6 +170,55 @@ nav {
         &:hover {
             color: #40ba52;
         }
+    }
+}
+
+span {
+    &.red {
+        color: #f24d2a;
+    }
+
+    &.blue {
+        color: #00a2d7;
+    }
+
+    &.green {
+        color: #40ba52;
+    }
+
+    &.purple {
+        color: #9b59ac;
+    }
+
+    &.yellow {
+        color: #f1c619;
+    }
+}
+
+.block {
+    width: 80px;
+    height: auto;
+    background-color: #f2f2f2;
+    padding: 20px 40px 8px 40px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+    img {
+        width: 100%;
+        display: block;
+    }
+
+    p {
+        text-align: center;
+        margin: 0;
+        margin-top: 8px;
+        font-size: 14px;
+    }
+
+    .logo-container {
+        background-color: #fbfbfb;
+        padding: 6px;
     }
 }
 

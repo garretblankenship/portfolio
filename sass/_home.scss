@@ -5,15 +5,19 @@
         
         .slide {
             display: flex;
-            min-height: 0vh;
             flex-direction: column;
             justify-content: space-between;
             max-width: 900px;
             margin: auto;
+            overflow: hidden;
+            
+            min-height: 0vh;
             opacity: 0;
             max-height: 0px;
-            animation-duration: 30s;
+
+            animation-duration: 24s;
             animation-iteration-count: infinite;
+            // animation-timing-function: steps(1);
             animation-delay: 1s;
             
             header {
@@ -22,7 +26,7 @@
     
             footer {
                 align-self: flex-end;
-                padding-bottom: 30px;
+                padding-bottom: 60px;
                 padding-top: 20px;
             }
 

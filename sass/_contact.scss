@@ -1,0 +1,25 @@
+#contact {
+    section {
+        > div {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        margin-bottom: 80px;
+    }
+    
+    .block-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        a {
+            display: block;
+        }
+    }
+}
