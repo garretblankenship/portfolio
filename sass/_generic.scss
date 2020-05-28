@@ -28,26 +28,6 @@ h3 {
     margin: 5px 0;
     font-size: 22px;
     color: #2e2e2e;
-
-    &.red {
-        color: #f24d2a;
-    }
-
-    &.blue {
-        color: #00a2d7;
-    }
-
-    &.green {
-        color: #40ba52;
-    }
-
-    &.purple {
-        color: #9b59ac;
-    }
-
-    &.yellow {
-        color: #f1c619;
-    }
 }
 
 h4 {
@@ -56,26 +36,6 @@ h4 {
     margin: 5px 0;
     font-size: 18px;
     color: #2e2e2e;
-
-    &.red {
-        color: #f24d2a;
-    }
-
-    &.blue {
-        color: #00a2d7;
-    }
-
-    &.green {
-        color: #40ba52;
-    }
-
-    &.purple {
-        color: #9b59ac;
-    }
-
-    &.yellow {
-        color: #f1c619;
-    }
 }
 
 h5 {
@@ -173,28 +133,6 @@ nav {
     }
 }
 
-span {
-    &.red {
-        color: #f24d2a;
-    }
-
-    &.blue {
-        color: #00a2d7;
-    }
-
-    &.green {
-        color: #40ba52;
-    }
-
-    &.purple {
-        color: #9b59ac;
-    }
-
-    &.yellow {
-        color: #f1c619;
-    }
-}
-
 .block {
     width: 80px;
     height: auto;
@@ -220,6 +158,26 @@ span {
         background-color: #fbfbfb;
         padding: 6px;
     }
+}
+
+.red {
+    color: #f24d2a;
+}
+
+.blue {
+    color: #00a2d7;
+}
+
+.green {
+    color: #40ba52;
+}
+
+.purple {
+    color: #9b59ac;
+}
+
+.yellow {
+    color: #f1c619;
 }
 
 @media screen and (min-width: 600px) {

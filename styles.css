@@ -149,16 +149,6 @@ h3 {
   margin: 5px 0;
   font-size: 22px;
   color: #2e2e2e; }
-  h3.red {
-    color: #f24d2a; }
-  h3.blue {
-    color: #00a2d7; }
-  h3.green {
-    color: #40ba52; }
-  h3.purple {
-    color: #9b59ac; }
-  h3.yellow {
-    color: #f1c619; }
 
 h4 {
   font-family: 'Krub', sans-serif;
@@ -166,16 +156,6 @@ h4 {
   margin: 5px 0;
   font-size: 18px;
   color: #2e2e2e; }
-  h4.red {
-    color: #f24d2a; }
-  h4.blue {
-    color: #00a2d7; }
-  h4.green {
-    color: #40ba52; }
-  h4.purple {
-    color: #9b59ac; }
-  h4.yellow {
-    color: #f1c619; }
 
 h5 {
   font-family: 'Krub', sans-serif;
@@ -249,17 +229,6 @@ nav {
     nav a:hover {
       color: #40ba52; }
 
-span.red {
-  color: #f24d2a; }
-span.blue {
-  color: #00a2d7; }
-span.green {
-  color: #40ba52; }
-span.purple {
-  color: #9b59ac; }
-span.yellow {
-  color: #f1c619; }
-
 .block {
   width: 80px;
   height: auto;
@@ -279,6 +248,21 @@ span.yellow {
   .block .logo-container {
     background-color: #fbfbfb;
     padding: 6px; }
+
+.red {
+  color: #f24d2a; }
+
+.blue {
+  color: #00a2d7; }
+
+.green {
+  color: #40ba52; }
+
+.purple {
+  color: #9b59ac; }
+
+.yellow {
+  color: #f1c619; }
 
 @media screen and (min-width: 600px) {
   h1 {
@@ -308,7 +292,8 @@ span.yellow {
     max-height: 0px;
     animation-duration: 24s;
     animation-iteration-count: infinite;
-    animation-delay: 1s; }
+    animation-delay: 1s;
+    animation-timing-function: linear; }
     #home .main .slide header {
       padding-top: 60px; }
     #home .main .slide footer {
