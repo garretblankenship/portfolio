@@ -329,7 +329,7 @@ nav {
   #execution section:nth-child(even) .images {
     background-color: #f2f2f2; }
 #execution section > div {
-  max-width: 1000px;
+  max-width: 900px;
   margin: auto;
   padding-top: 80px; }
 #execution section h3 {
@@ -364,7 +364,7 @@ nav {
     #ideas section:first-child h3 {
       margin-top: 80px; }
   #ideas section > div {
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto; }
   #ideas section h2 {
     margin-bottom: 80px; }
